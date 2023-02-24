@@ -1,0 +1,238 @@
+body{
+    background-color: rgb(36, 34, 34);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(36, 34, 34);
+    margin: 0;
+
+}
+.container {
+    width: 100%;
+    height: 40rem;
+    position: relative;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.count1 {
+    cursor: pointer;
+}
+p.center-text{
+    z-index: 10;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6rem;
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: bolder;
+}
+.fa-video {
+    color: white;
+    font-size: 20px;
+}
+.fa-high-definition{
+    color: white;
+    font-size: 20px;
+}
+
+.fa-audio-description,.fa-youtube{
+    color: white;
+    font-size: 20px;
+}
+#myInput {
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 30rem;
+    height: 45px;
+    left: 35%;
+    border-radius: 20px;
+    padding: 16px;
+    background-color: transparent;
+    border: 2px solid rgb(46, 46, 46);
+    z-index: 13;
+    color: white;
+    font-size: 22px;
+}
+
+.fa-right-to-bracket{
+    color: white;
+    font-size: 20px;
+}
+.fa-magnifying-glass{
+    color: white;
+    font-size: 20px;
+}
+.count1 {
+    margin-bottom: 30px;
+}
+
+.fa-audio-description:hover,.fa-youtube:hover,.fa-video:hover,.fa-right-to-bracket:hover,.fa-magnifying-glass:hover{
+background-color: red;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.small-cont{
+    margin-left: 20px;
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(43, 42, 42);
+    border-radius: 3rem;
+    border: none;
+    padding: 25px;
+    position: absolute;
+    z-index: 9;
+    margin-top: 10rem;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    font-family: Poppins;
+}
+
+.right-info {
+    margin-top:  20px;
+}
+#main-Image {
+/* position: absolute; */
+width: 100%;
+height: auto;
+/* transform: translateX(0%); */
+}
+.med-cont{
+position: absolute;
+width: 100%;
+height: 100%;
+}
+#roundBtn {
+    z-index: 12;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    border: none;
+    border-radius: 10%;
+   cursor: pointer;
+    font-size: 80px;
+}
+
+#roundBtn:hover{
+    color: red;
+}
+
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top:30px;
+    padding: 30px;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top:30px;
+    padding: 30px;
+}
+.card {
+    width: 300px;
+    height: 500px;
+    background-color:  white;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    transition: all 0.7s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+.card img {
+    width: 300px;
+    height: auto;
+    position: absolute;
+}
+#desc {
+    position: absolute;
+    top: 60%;
+    z-index: 7;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+}
+
+#movie-title {
+    font-family: Poppins;
+    padding: 10px;
+    font-size: 14px;
+}
+#movie-desc {
+    font-family: Poppins;
+    padding: 10px;
+}
+#comingSoon{
+   color: white;
+   font-size: 22px;
+   display: inline;
+   padding: 12px;
+   margin-left: 8%;
+   margin-top: 5%;
+   height: 10%;
+   font-family: Poppins;
+   background-color: rgb(216, 0, 0);
+   color: #fff;
+   border-radius: 10px;
+   border: none;
+}
+ #next-btn{
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    right: 7rem;  
+    border-radius: 100%;
+    border: none;
+    padding: 16px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#prev-btn {
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    left: 7rem;  
+    border-radius: 100%;
+    border: none;
+    padding: 16px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-angle-right,.fa-angle-left{
+    font-size: 20px;
+}
+
+.bigmain {
+    transform: translateX(0%);
+}
